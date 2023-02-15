@@ -12,22 +12,24 @@ Given a record of every transaction during a three month period, calculate the r
 Technology Stack
 ----------------
 
-Database: H2 Database (In Memory)
-          NOTE: For the sake of ease of use and demonstration, H2 Database was chosen.
-          In a production setting, the database would not be in same process space as backend.
+Database: H2 Database (In Memory) <br>
+          NOTE: For the sake of ease of use and demonstration, H2 Database was chosen. <br>
+          In a production setting, the database would not be in same process space as backend. <br>
           
           
-Java version: Java 8
-API Documentation: Swagger UI
+Java version: Java 8  <br/>
+API Documentation: Swagger UI <br/>
+Testing Framework: JUnit 5 <br/>
+                  JaCoCo  <br/>
 
 How To Build
 -----------
 
-1. cd to project root directory.
-2. Type:
-      mvn clean package
+1. cd to project root directory. <br/>
+2. Type:  <br/>
+      mvn clean package  <br/>
    
-   NOTE: During the build phase, 4 tests are executed.
+   NOTE: During the build phase, 4 tests are executed. <br/>
  
 How To Run
 ----------
@@ -53,10 +55,10 @@ How To Run
           
  Additional Notes
  ----------------
- To browse the H2 Database, simply navigate to http://localhost:8080/h2-console/
+ To browse the H2 Database, simply navigate to http://localhost:8080/h2-console/ <br/>
  
- DB User: sa
- DB Password: sa
+ DB User: sa <br/>
+ DB Password: sa <br/>
  
      
      
